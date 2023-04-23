@@ -1,3 +1,4 @@
 import os
 output = os.system('id')
-print(output)
+with open('/tmp/test','w') as f:
+    f.write(output)
